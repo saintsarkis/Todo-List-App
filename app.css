@@ -13,18 +13,33 @@ body {
 }
 
 header {
+    /*
+     * set background color of the header as well as give it a height
+     */
     height: 100px;
     background-color: #ccc;
 }
 
 section {
-    flex-direction: column;
+    /*
+     * set background color... this is probably already defaulted to white
+     * so why am I doing this... no fucking clue...
+     */
     background-color: white;
+    /**
+     * here is some flexbox shennaningans
+     */
+    flex-direction: column;
     display: flex;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
+    /**
+     * set the background color of the footer and give it a height
+     */
     background-color: #ccc;
     height: 50px;
 }
