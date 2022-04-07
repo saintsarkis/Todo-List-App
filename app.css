@@ -1,0 +1,30 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* the browser is setting stuff by default... I dont like it */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: #ccc;
+}
+
+section {
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #ccc;
+    height: 50px;
+}
