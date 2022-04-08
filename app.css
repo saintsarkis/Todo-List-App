@@ -1,0 +1,45 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* the browser is setting stuff by default... I dont like it */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /*
+     * set background color of the header as well as give it a height
+     */
+    height: 100px;
+    background-color: #ccc;
+}
+
+section {
+    /*
+     * set background color... this is probably already defaulted to white
+     * so why am I doing this... no fucking clue...
+     */
+    background-color: white;
+    /**
+     * here is some flexbox shennaningans
+     */
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    /**
+     * set the background color of the footer and give it a height
+     */
+    background-color: #ccc;
+    height: 50px;
+}
